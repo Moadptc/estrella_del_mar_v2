@@ -1,0 +1,355 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.main-color
+{
+    color: #ffa130 !important;
+}
+
+.main-bg
+{
+    background: #ffa130;
+}
+
+/*------------- begin myFramework  ---------*/
+.shadow-effect-3
+{
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+.no-padding
+{
+    padding: 0;
+}
+
+.shadow-effect-2
+{
+    box-shadow: 1px 1px 8px #ccc;
+}
+
+.shadow-effect-1
+{
+    box-shadow: 1px 1px 12px #b3b3b3;
+}
+
+.border-gray
+{
+    border-color: #b6b6b6;
+}
+/*-------- end myFramework -------------*/
+
+.top-nav ul li a
+{
+    font-size: 13px;
+}
+
+.bottom-nav ul li a
+{
+    font-size: 18px;
+}
+
+/*------- slider -------------*/
+.main-slider
+{
+    position: relative;
+}
+
+.main-slider img
+{
+    height: 480px;
+}
+
+.arrow-next,.arrow-prev
+{
+    background: #454545 !important;
+    padding: 34px !important;
+}
+
+.arrow-next
+{
+    position: absolute;
+    right: 0;
+}
+
+.arrow-prev
+{
+    position: absolute;
+    left: 0;
+}
+
+.caption-slider
+{
+    width: auto;
+    background: rgba(0, 0, 0, 0.38);
+}
+
+.text-section-slider
+{
+    position: absolute;
+    top:60px;
+}
+
+/*------- slider -------------*/
+
+
+/*------- horizontal slider -------------*/
+
+.horizontal-slider .item .card img
+{
+    height:180px;
+}
+
+.horizontal-slider .item .card
+{
+    border-radius: 0;
+}
+
+/*------- horizontal slider -------------*/
+
+
+/*------- navbar -------------*/
+
+.bottom-nav ul li a:hover
+{
+    color: #ffa130 !important;
+}
+
+/*------- navbar -------------*/
+
+
+
+/*------- description section ---------*/
+
+.img-description
+{
+    height: 322px;
+}
+
+.main-description h2
+{
+    padding: 0;
+}
+
+.main-description .show-photos-link
+{
+    border-bottom: 3px solid #3f3f3f;
+    color: #3f3f3f;
+    padding-bottom: 3px;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+.main-description .show-photos-link:hover
+{
+    text-decoration: none;
+    color: #ffa130;
+    border-color: #ffa130;
+}
+
+/*------- description section ---------*/
+
+
+
+/*------- menu section ---------*/
+
+.menu-section
+{
+    margin-top: 90px !important;
+    height: 102px;
+    background-image: url("../img/rest.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu-section .text-menu
+{
+    height: 100%;
+}
+
+.menu-section a
+{
+    display: inline-block;
+    padding: 12px 65px;
+    border-radius: 2px;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #6d6d6d;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-section a:hover
+{
+    background-color: #373737;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+
+/*------- menu section ---------*/
+
+
+/*------- timetable-section ---------*/
+
+.timetable-section .card
+{
+    border-radius: 0;
+}
+
+/*------- timetable-section ---------*/
+
+
+/*------- photos-section ---------*/
+
+.photo-section .row img
+{
+    height: 220px;
+    position: relative;
+}
+
+.overlay-photo
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    z-index: 999;
+    left: 0;
+    top:0;
+    text-align: center !important;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.overlay-photo:hover
+{
+    opacity: 0.2;
+}
+
+.overlay-photo i
+{
+   color: #fff;
+}
+
+
+/*------- photos-section ---------*/
+
+
+/*--------- contact section ---------*/
+
+.contact-section form .input-text
+{
+    height: 50px;
+    background: #eeeeee;
+    border-radius: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact-section form .input-textarea
+{
+    background: #eeeeee;
+    border-radius: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact-section form .input-text:hover,
+.contact-section form .input-textarea:hover
+{
+    border-color: #ffa130;
+}
+
+.contact-section form .input-text:focus,
+.contact-section form .input-textarea:focus
+{
+    background: #fff;
+    box-shadow: none;
+}
+
+.contact-section form .btn-conatct
+{
+    height: 50px;
+    color: #ffa130;
+    border-radius: 0;
+    font-size: 18px;
+    border: 1px solid #ffa130;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-section form .btn-conatct:hover
+{
+    background: #ffa130;
+    color: #fff;
+    border: 1px solid #e08e2a;
+}
+
+
+
+/*--------- contact section ---------*/
+
+
+
+/*--------- about section ---------*/
+
+
+
+/*--------- about section ---------*/
+
+
+/*--------- opinion section ---------*/
+
+.user-photo {
+    width: 70px;
+}
+.opinion-card {
+    position:relative;
+}
+.opinion-card>.opinion-card-title:after,
+.opinion-card>.opinion-card-title:before{
+    position:absolute;
+    top:11px;left:-16px;
+    right:100%;
+    width:0;
+    height:0;
+    display:block;
+    content:" ";
+    border-color:transparent;
+    border-style:solid solid outset;
+    pointer-events:none;
+}
+.opinion-card>.opinion-card-title:after{
+    border-width:7px;
+    border-right-color:#f7f7f7;
+    margin-top:1px;
+    margin-left:2px;
+}
+.opinion-card>.opinion-card-title:before{
+    border-right-color:#ddd;
+    border-width:8px;
+}
+
+/*--------- opinion section ---------*/
+
+
+
+
+/*------------ footer ---------------*/
+
+footer .follow-us
+{
+    font-size: 21px !important;
+    color: white;
+}
+
+.copyright-bottom
+{
+    border-top: 1px solid #1e1e1e;
+}
+
+/*------------ footer ---------------*/
